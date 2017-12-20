@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'TiemposHeadline-Regular';
+  src: url(../fonts/TiemposHeadlineWeb-Regular.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposHeadlineWeb-Regular.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TiemposHeadline-Black';
+  src: url(../fonts/TiemposHeadlineWeb-Black.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposHeadlineWeb-Black.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TiemposHeadline-Bold';
+  src: url(../fonts/TiemposHeadlineWeb-Bold.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposHeadlineWeb-Bold.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TiemposHeadline-Semibold';
+  src: url(../fonts/TiemposHeadlineWeb-Semibold.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposHeadlineWeb-Semibold.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TiemposHeadline-Medium';
+  src: url(../fonts/TiemposHeadlineWeb-Medium.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposHeadlineWeb-Medium.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TiemposText-Regular';
+  src: url(../fonts/TiemposTextWeb-Regular.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposTextWeb-Regular.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TiemposText-RegularItalic';
+  src: url(../fonts/TiemposTextWeb-RegularItalic.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposTextWeb-RegularItalic.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TiemposText-Semibold';
+  src: url(../fonts/TiemposTextWeb-Semibold.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposTextWeb-Semibold.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+@font-face {
+  font-family: 'TiemposText-SemiboldItalic';
+  src: url(../fonts/TiemposTextWeb-SemiboldItalic.eot?&v=1490809541062#iefix) format('embedded-opentype'),url(../fonts/TiemposTextWeb-SemiboldItalic.woff?v=1490809541062) format('woff');
+  font-weight: normal;
+  font-style: normal
+}
+
+*, body {
+	-webkit-font-smoothing: antialiased;
+	webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+strong, b {font-family: "TiemposText-Semibold"; font-weight: normal;}
+
+body {
+	color: #000;
+}
+
+body { font-family: "TiemposText-Regular"; font-size: 18px; line-height: 26px; margin-left:0; margin-right: 0; padding-left: 0; padding-right: 0;}
+
+.autocomplete-suggestions { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+
+input { font-size: 28px; padding: 10px; border: 1px solid #CCC; display: block; margin: 30px auto 0 auto; width: 80%;}
+
+.chart {
+	width: 100%; 
+	min-height: 400px;
+  max-height: 220px;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.chart-separator {
+  width: 1px;
+  background: #333;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+
+.waiting-results {
+  padding: 30px 0;
+}
+
+.nochart {
+  min-height: 0;
+  margin: 50px 0;
+  padding: 20px;
+  font-size: 22px;
+  line-height: 24px;
+  background: #d2e7ff;
+}
+
+.loading {
+  text-align: center;
+  margin: 25px auto;
+  display: block;
+}
+
+.search-box {
+  background: #dde6f1;
+  border-top: 4px solid #001c4c;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+}
+
+.chart-container {
+  border-top: 4px solid #001c4c;
+}
+
+.search-box .copy-search {
+  font-family: "TiemposHeadline-Semibold";
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #001c4c;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.chart-container .chart-group {
+  border: 1px solid #ccc;
+  padding: 0 5px;
+}
+
+.chart-container .chart-group-error {
+  border:none;
+  padding: 0;
+  border-top: 1px solid #ccc;
+}
+
+.chart-container p {
+  font-family: "TiemposHeadline-Medium";
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000;
+  margin: 10px 0 10px 0;
+}
+
+.chart-container .chart-footer p {
+  font-family: "TiemposHeadline-Medium";
+  font-size: 18px;
+  line-height: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.chart-container .chart-legend {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.chart-container .chart-info {
+  margin-top:20px;
+  margin-bottom: 50px;
+}
+
+.chart-container .chart-title-only p {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.chart-container .chart-legend .party {
+  border: 1px solid #ccc;
+  padding: 3px 6px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.chart-container .chart-legend .party-color {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: relative;
+  top: 2px;
+  margin-right: 5px;
+}
+
+.table-results {
+  font-size: 12px;
+}
+
+.table-responsive {
+  min-height: .01%;
+  overflow-x: auto;
+}
+@media screen and (max-width: 767px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;       
+  }
+}
+
+/*** MOBILE ***/
+@media (max-width: 600px) {
+  input {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  .chart-container .chart-footer p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .horitzontal-scroll-icon {
+    display: block !important;
+    text-align: center;
+  }
+
+  .autocomplete-suggestion { padding: 5px 5px; }
+
+  .search-box {
+  }
+
+  .search-box .copy-search {
+    margin:20px 0;
+  }
+
+  .table-summary {
+    font-size: 14px;
+  }
+}
